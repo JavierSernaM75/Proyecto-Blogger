@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/form-cuentas.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Crear una cuenta</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Bloggram</h1>
+        </header>
+        <section class="section-cuenta">
+            <form class="form-cuenta" action="">
+                <h4>Crear una Cuenta</h4>
+                <input class="controls" type="text" name="nombre completo" id="nombrecompleto" placeholder="Nombre Completo*"><br>
+                <input class="controls" type="email" name="email" id="email" placeholder="E-Mail*"><br>
+                <input class="controls" type="password" name="pass" id="pass" placeholder="Contraseña*"><br>
+                <input class="controls" type="text" name="telefono" id="telefono" placeholder="Teléfono"><br>
+                <label for="avatar">Selecciona una foto de perfil:</label><br>
+                <input class="controls" type="file" name="avatar" id="avatar"><br>
+                <input class="controls" type="text" name="ciudad" id="ciudad" placeholder="Ciudad*"><br>
+                <input class="controls" type="text" name="estado" id="estado" placeholder="Estado*"><br>
+                <input class="controls" type="text" name="municipio" id="municipio" placeholder="Municipio*"><br>
+                <label for="fechanacimiento">Fecha de Nacimiento:*</label><br>
+                <input class="controls" type="date" name="fechanacimiento" id="fechanacimiento"><br>
+                <label for="genero">Género:</label><br>
+                <select name="genero:" class="controls">
+                    <option selected value="0"> Elige una opción </option>
+                        <option value="1">Masculino</option> 
+                        <option value="2">Femenino</option> 
+                        <option value="3">Prefiero no especificar</option> 
+                </select><br>
+                <input class="buttons" type="button" value="Crear Cuenta">
+                <p>¿Ya tienes una cuenta? <a href="login.html">Inicia Sesión.</a></p>                
+            </form>
+            <br>
+            <p>Al crear una cuenta, acepto los términos y condiciones.</p>
+        </section>
+        <footer class="footer">
+            <p>Derechos Reservados. Bloggram 2020.</p>
+        </footer>
+    </body>
+</html>
